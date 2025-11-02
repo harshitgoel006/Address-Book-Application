@@ -71,12 +71,12 @@ data/
 
 ## 👥 Team Members
 
-| Name | Role |
-|------|------|
-| Harshit Goel | Project Lead & UI Development |
-| Member 2 | Feature Implementation |
-| Member 3 | Search & Update Module |
-| Member 4 | Documentation & Testing |
+| Name            | Role |
+|-----------------|------|
+| Harshit Goel    | Project Lead & UI Development |
+| Udayan Nakoti   | Feature Implementation |
+| Paras Kumar     | Search & Update Module |
+| Pardeksha Yadav | Documentation & Testing |
 
 *(You can edit roles according to your team)*
 

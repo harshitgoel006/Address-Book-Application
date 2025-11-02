@@ -17,12 +17,12 @@ public class AboutWindow {
         area.setText(
                 "Address Book Application\n\n" +
                         "Team Members:\n" +
-                        "1. Member A (Main Dashboard)\n" +
-                        "2. Member B (Add Contact)\n" +
-                        "3. Member C (Search/Update)\n" +
-                        "4. Member D (View/Delete/Sort)\n\n" +
-                        "Project: Simple Advanced Java Project (10 marks)\n" +
-                        "Data stored in-memory (ArrayList)."
+                        "1. Harshit Goel (Main Dashboard)\n" +
+                        "2. Paras Kumar (Add Contact)\n" +
+                        "3. Udayan Nakoti C (Search/Update)\n" +
+                        "4. Pardeksha Yadav (View/Delete/Sort)\n\n" +
+                        "Project: Address Book Application \n"
+
         );
         JScrollPane scroll = new JScrollPane(area);
         scroll.setBounds(10, 10, 390, 180);

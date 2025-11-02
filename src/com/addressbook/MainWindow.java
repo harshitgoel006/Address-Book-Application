@@ -4,9 +4,6 @@ import javax.swing.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-/**
- * Dashboard with buttons to open each window.
- */
 public class MainWindow {
     private final AddressBook addressBook;
     private final JFrame frame;
@@ -20,14 +17,14 @@ public class MainWindow {
         frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         frame.setLocationRelativeTo(null);
 
-        // Header / count
+
         JLabel header = new JLabel("Address Book Application");
         header.setBounds(110, 10, 250, 25);
 
         countLabel = new JLabel("Total Contacts: " + addressBook.getCount());
         countLabel.setBounds(140, 40, 200, 25);
 
-        // Buttons for windows
+
         JButton addBtn = new JButton("Add Contact");
         addBtn.setBounds(120, 80, 180, 35);
         addBtn.setFocusable(false);
@@ -73,14 +70,14 @@ public class MainWindow {
 
         frame.setVisible(true);
 
-        // On close -> confirmation
+
         frame.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
                 exitConfirm();
             }
         });
 
-        // Button actions
+
         addBtn.addActionListener(e -> new AddContactWindow(addressBook, this::refreshCount));
         searchBtn.addActionListener(e -> new SearchContactWindow(addressBook));
         updateBtn.addActionListener(e -> new UpdateContactWindow(addressBook, this::refreshCount));
