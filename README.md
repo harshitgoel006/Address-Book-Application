@@ -64,10 +64,7 @@ data/
 
 ---
 
-## 📌 Screenshots
-*(Add later after running UI — optional)*
 
----
 
 ## 👥 Team Members
 
@@ -78,7 +75,6 @@ data/
 | Paras Kumar     | Search & Update Module |
 | Pardeksha Yadav | Documentation & Testing |
 
-*(You can edit roles according to your team)*
 
 ---
 
